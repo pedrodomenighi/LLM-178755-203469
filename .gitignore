@@ -1,0 +1,20 @@
+#  Python 
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+#  Ambientes virtuais 
+.venv/
+venv/
+env/
+
+#  Segredos / configuração local 
+.env
+
+#  Artefatos gerados em tempo de execução 
+# Base vetorial: é reconstruída com `python src/ingest.py`
+chroma_db/
+
