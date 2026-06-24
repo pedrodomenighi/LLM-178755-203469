@@ -11,8 +11,6 @@ dist/
 venv/
 env/
 
-#  Segredos / configuração local 
-.env
 
 #  Artefatos gerados em tempo de execução 
 # Base vetorial: é reconstruída com `python src/ingest.py`
